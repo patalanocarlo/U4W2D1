@@ -1,4 +1,4 @@
-package Esercizio3;
+package Esercizio4;
 
 public class Banca {
     public static void main(String args[]) {

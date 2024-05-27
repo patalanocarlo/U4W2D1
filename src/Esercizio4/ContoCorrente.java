@@ -1,4 +1,4 @@
-package Esercizio3;
+package Esercizio4;
 
 public class ContoCorrente {
     String titolare;
