@@ -19,7 +19,7 @@ public class Esercizio2 {
 
         while (value != 0) {
             System.out.println("Stato del array attuale:");
-            printArray(array);
+          ScriviArray(array);
             System.out.println("Inserisci il numero da inserire nel array oppure digita 0 per chiudere il programma:");
             value = scanner.nextInt();
             if (value == 0) {
@@ -43,7 +43,7 @@ public class Esercizio2 {
         scanner.close();
     }
 
-    private static void printArray(int[] array) {
+    private static void ScriviArray(int[] array) {
         for (int i : array) {
             System.out.print(i + " ");
         }
